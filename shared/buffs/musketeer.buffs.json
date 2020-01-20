@@ -1,0 +1,99 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "SS_ACC_debuff_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.18,
+         "duration" : 2,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+      "is_clear_debuff_valid": false
+      },
+         {
+         "id" : "SS_ACC_debuff_2",
+      "stat_type" : "combat_stat_add",
+      "stat_sub_type" : "attack_rating",
+      "amount" : -0.16,
+      "duration" : 2,
+      "remove_on_battle_complete" : true,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+      },
+      "is_clear_debuff_valid": false
+      },
+   {
+      "id" : "SS_ACC_debuff_3",
+      "stat_type" : "combat_stat_add",
+      "stat_sub_type" : "attack_rating",
+      "amount" : -0.14,
+      "duration" : 2,
+      "remove_on_battle_complete" : true,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+      },
+         "is_clear_debuff_valid": false
+      },
+   {
+      "id" : "SS_ACC_debuff_4",
+      "stat_type" : "combat_stat_add",
+      "stat_sub_type" : "attack_rating",
+      "amount" : -0.12,
+      "duration" : 2,
+      "remove_on_battle_complete" : true,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+      },
+      "is_clear_debuff_valid": false
+      },
+     {
+         "id" : "SS_ACC_debuff_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.10,
+         "duration" : 2,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+     },
+     {
+      "id" : "AS ignore protection",
+      "stat_type" : "ignore_protection",
+      "stat_sub_type" : "",
+      "amount" : 1,
+      "remove_if_not_active" : false,
+      "rule_type" : "actorStatus",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : "tagged"
+      }
+   }
+   ]
+ 
+}

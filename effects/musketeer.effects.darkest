@@ -1,0 +1,23 @@
+//MUSKETEER SKILL EFFECTS
+
+//aimed_shot
+effect: .name "Sniper" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .attack_rating_add 10% .on_hit true .on_miss false
+effect: .name "Sniper ignore protection" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection" .on_hit true .on_miss false
+
+// smokescreen
+
+effect: .name "SS ACC Debuff 1" .target "target" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_1" .on_hit true .on_miss false
+effect: .name "SS ACC Debuff 2" .target "target" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_2" .on_hit true .on_miss false
+effect: .name "SS ACC Debuff 3" .target "target" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_3" .on_hit true .on_miss false
+effect: .name "SS ACC Debuff 4" .target "target" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_4" .on_hit true .on_miss false
+effect: .name "SS ACC Debuff 5" .target "target" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_5" .on_hit true .on_miss false
+
+//patch_up
+
+effect: .name "Patch Up Heal 1" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.06	.on_hit true .on_miss false .queue true
+effect: .name "Patch Up Heal 2" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.07	.on_hit true .on_miss false .queue true
+effect: .name "Patch Up Heal 3" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.08	.on_hit true .on_miss false .queue true
+effect: .name "Patch Up Heal 4" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.09	.on_hit true .on_miss false .queue true
+effect: .name "Patch Up Heal 5" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.10	.on_hit true .on_miss false .queue true
+
+//crit

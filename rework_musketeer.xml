@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>D:/musketeer/</ModDataPath>
+	<Title>musketeer rework test!</Title>
+	<Language>korean</Language>
+	<UpdateDetails/>
+	<Visibility>public</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>1</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>characters</Tags>
+	</Tags>
+	<ItemDescription>총사 리워크를 시도한 모드의 preview 버전입니다. 전용 장신구들과 일부 항목은 아직 조정되지 않았습니다. 성능은 갤 참고. 정식 공개시 창작마당에 따로 업로드할 예정입니다.</ItemDescription>
+	<PublishedFileId>1973207593</PublishedFileId>
+</project>
+
