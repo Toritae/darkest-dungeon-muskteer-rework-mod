@@ -41,7 +41,7 @@
          "id" : "medics_boots",
          "buffs" : 
          [
-            "TRINKET_HEALDONE_B2"
+            "Medics boots cure"
          ],
          "hero_class_requirements":
          [
