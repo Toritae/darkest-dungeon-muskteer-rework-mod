@@ -1,20 +1,26 @@
 //MUSKETEER SKILL EFFECTS
 
 //aimed_shot
-effect: .name "Sniper" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .attack_rating_add 10% .on_hit true .on_miss false
-effect: .name "Sniper ignore protection" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection" .on_hit true .on_miss false
+
+effect: .name "Sniper" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .attack_rating_add 15% .on_hit true .on_miss false
+
+effect: .name "Sniper ignore protection 1" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection 1" .on_hit true .on_miss false
+effect: .name "Sniper ignore protection 2" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection 2" .on_hit true .on_miss false
+effect: .name "Sniper ignore protection 3" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection 3" .on_hit true .on_miss false
+effect: .name "Sniper ignore protection 4" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection 4" .on_hit true .on_miss false
+effect: .name "Sniper ignore protection 5" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection 5" .on_hit true .on_miss false
 
 // smokescreen
 
-effect: .name "SS ACC Debuff 1" .target "target" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_1" .on_hit true .on_miss false
-effect: .name "SS ACC Debuff 2" .target "target" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_2" .on_hit true .on_miss false
-effect: .name "SS ACC Debuff 3" .target "target" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_3" .on_hit true .on_miss false
-effect: .name "SS ACC Debuff 4" .target "target" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_4" .on_hit true .on_miss false
-effect: .name "SS ACC Debuff 5" .target "target" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_5" .on_hit true .on_miss false
+effect: .name "SS ACC Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_1" .on_hit true .on_miss false
+effect: .name "SS ACC Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_2" .on_hit true .on_miss false
+effect: .name "SS ACC Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_3" .on_hit true .on_miss false
+effect: .name "SS ACC Debuff 4" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_4" .on_hit true .on_miss false
+effect: .name "SS ACC Debuff 5" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_5" .on_hit true .on_miss false
 
-effect: .name "SS SP buff 1" .target "target" .curio_result_type "positive" .chance 500% .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false
-effect: .name "SS SP buff 2" .target "target" .curio_result_type "positive" .chance 500% .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss false
-effect: .name "SS SP buff 3" .target "target" .curio_result_type "positive" .chance 500% .combat_stat_buff 1 .speed_rating_add 4 .on_hit true .on_miss false
+effect: .name "SS SP buff 1" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false
+effect: .name "SS SP buff 2" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss false
+effect: .name "SS SP buff 3" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 4 .on_hit true .on_miss false
 
 //patch_up
 
@@ -23,5 +29,27 @@ effect: .name "Patch Up Heal 2" .target "target" .curio_result_type "positive" .
 effect: .name "Patch Up Heal 3" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.08	.on_hit true .on_miss false .queue true
 effect: .name "Patch Up Heal 4" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.09	.on_hit true .on_miss false .queue true
 effect: .name "Patch Up Heal 5" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.10	.on_hit true .on_miss false .queue true
+
+//skeet shot
+effect: .name "Skeet Debuff 1" .target "target" .curio_result_type "negative" .chance 90%  .duration 3  .combat_stat_buff 1 .defense_rating_add -10%  .on_hit true .on_miss false
+effect: .name "Skeet Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .duration 3  .combat_stat_buff 1 .defense_rating_add -12%  .on_hit true .on_miss false
+effect: .name "Skeet Debuff 3" .target "target" .curio_result_type "negative" .chance 110% .duration 3  .combat_stat_buff 1 .defense_rating_add -14%  .on_hit true .on_miss false
+effect: .name "Skeet Debuff 4" .target "target" .curio_result_type "negative" .chance 120% .duration 3  .combat_stat_buff 1 .defense_rating_add -16%  .on_hit true .on_miss false
+effect: .name "Skeet Debuff 5" .target "target" .curio_result_type "negative" .chance 130% .duration 3  .combat_stat_buff 1 .defense_rating_add -20%  .on_hit true .on_miss false
+
+effect: .name "Skeet Block Guard 1" .target "target" .chance 90% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Skeet Block Guard 2" .target "target" .chance 100% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Skeet Block Guard 3" .target "target" .chance 110% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Skeet Block Guard 4" .target "target" .chance 120% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Skeet Block Guard 5" .target "target" .chance 130% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
+
+//skeet shot plan
+
+effect: .name "Skeet Buff Self 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .attack_rating_add 6%  .crit_chance_add 4%  .on_hit true .on_miss true	.queue true
+effect: .name "Skeet Buff Self 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .attack_rating_add 8%  .crit_chance_add 4%  .on_hit true .on_miss true	.queue true
+effect: .name "Skeet Buff Self 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .attack_rating_add 10%  .crit_chance_add 5%  .on_hit true .on_miss true	.queue true
+effect: .name "Skeet Buff Self 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .attack_rating_add 12%  .crit_chance_add 5%  .on_hit true .on_miss true	.queue true
+effect: .name "Skeet Buff Self 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .attack_rating_add 15%  .crit_chance_add 6%  .on_hit true .on_miss true	.queue true
+
 
 //crit
