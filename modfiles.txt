@@ -143,12 +143,12 @@ heroes/musketeer/musketeer.art.darkest 1983
 heroes/musketeer/musketeer.info.darkest 8133
 heroes/musketeer/musketeer.override.darkest 39
 heroes/musketeer/musketeer_guild_header.png 292551
-shared/buffs/musketeer.buffs.json 4041
+shared/buffs/musketeer.buffs.json 8844
 upgrades/heroes/musketeer.upgrades.json 21272
 audio/musketeer.heroes.load_order.json 84
 effects/musketeer.effects.darkest 6032
-trinkets/musketeer.entries.trinkets.json 1995
-README.md 2252
+trinkets/musketeer.entries.trinkets.json 2239
+README.md 3306
 modfiles.txt 9412
 preview_icon.png 35052
 project.xml 787
