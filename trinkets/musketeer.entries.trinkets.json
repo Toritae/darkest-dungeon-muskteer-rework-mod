@@ -5,11 +5,12 @@
          "id" : "wrathful_hat",
          "buffs" : 
          [
-            "TRINKET_BACKRANK_DMGL_B2",
-            "TRINKET_BACKRANK_DMGH_B2",
-            "TRINKET_DEBUFFSKILL_B2",
-            "TRINKET_HEALDONE_D3",
-            "TRINKET_HPHEALRECEIVED_D3"
+            "wrathful hat 3rank dmgL buff",
+            "wrathful hat 3rank dmgH buff",
+            "wrathful hat 3rank spd buff",
+            "wrathful hat aac debuff",
+            "wrathful hat def debuff",
+            "wrathful hat death door resist debuff"
          ],
          "hero_class_requirements":
          [
@@ -24,9 +25,10 @@
          "id" : "bulls_eye_hat",
          "buffs" : 
          [
-            "TRINKET_ACC_B2",
+            "bulls eye hat aac buff",
+            "bulls eye hat dmgL buff",
             "TRINKET_CRIT_B2",
-            "TRINKET_DEF_D2"
+            "bulls eye hat received debuff"
          ],
          "hero_class_requirements":
          [
@@ -47,8 +49,8 @@
          [
             "musketeer"
          ],
-         "rarity" : "uncommon",
-         "price" : 10000,
+         "rarity" : "rare",
+         "price" : 15000,
          "limit" : 0,
          "origin_dungeon" : ""
       },
@@ -73,14 +75,16 @@
          "id" : "vengeful_boots",
          "buffs" : 
          [
-            "TRINKET_CRIT_B1"
+            "vengeful boots hpbelow dmgL buff",
+            "vengeful boots hpbelow dmgH buff",
+            "vengeful boots hpbelow crit buff"
          ],
          "hero_class_requirements":
          [
             "musketeer"
          ],
-         "rarity" : "common",
-         "price" : 7500,
+         "rarity" : "uncommon",
+         "price" : 10000,
          "limit" : 0,
          "origin_dungeon" : ""
       }
