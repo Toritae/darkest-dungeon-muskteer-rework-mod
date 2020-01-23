@@ -14,7 +14,7 @@ armour: .name "musketeer_armour_4" .icon "eqp_armour_4.png"
 
 combat_skill: .id "aimed_shot" .icon "one" .anim "attack_rifle" .fx "aimed_shot" .targchestfx "aimed_shot_target" .area_pos_offset 100 0
 combat_skill: .id "smokescreen" .icon "two" .anim "attack_artillery" .fx "smokescreen" .targfx "smokescreen_target" .area_pos_offset 100 0 .target_area_pos_offset -100 20
-combat_skill: .id "call_the_shot" .icon "three" .anim "attack_rifle" .fx "call_the_shot" .targchestfx "mark_target"
+combat_skill: .id "call_the_shot" .icon "three" .anim "attack_rifle" .fx "aimed_shot" .targchestfx "mark_target"
 combat_skill: .id "buckshot" .icon "four" .anim "attack_rifle" .fx "buckshot" .targchestfx "buckshot_target" .area_pos_offset 50 0 .target_area_pos_offset -50 0
 combat_skill: .id "sidearm" .icon "five" .anim "attack_pistol" .fx "sidearm" .targchestfx "sidearm_target" .area_pos_offset 100 0
 combat_skill: .id "patch_up" .icon "six" .anim "attack_bandage" .fx "patch_up" .targfx "patch_up_target" .can_display_performer_selection_after_turn false
