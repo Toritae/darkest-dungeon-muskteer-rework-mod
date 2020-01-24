@@ -43,7 +43,8 @@
          "id" : "medics_boots",
          "buffs" : 
          [
-            "Medics boots cure"
+            "Medics boots bleed cure",
+            "Medics boots poison cure"
          ],
          "hero_class_requirements":
          [

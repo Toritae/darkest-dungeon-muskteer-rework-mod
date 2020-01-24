@@ -147,8 +147,21 @@
       }
    },
    {
-      "id" : "Medics boots cure",
-      "stat_type" : "cure",
+      "id" : "Medics boots bleed cure",
+      "stat_type" : "cure_bleed_chance",
+      "stat_sub_type" : "",
+      "amount" : 1,
+      "remove_if_not_active" : false,
+      "rule_type" : "skill",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : "patch_up"
+      }
+   },
+   {
+      "id" : "Medics boots poison cure",
+      "stat_type" : "cure_poison_chance",
       "stat_sub_type" : "",
       "amount" : 1,
       "remove_if_not_active" : false,
