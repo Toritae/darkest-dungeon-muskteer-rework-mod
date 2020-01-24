@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+	<!-- Musketeer Camping Skills -->
+    <entry id="camping_skill_name_field_dressing_musk"><![CDATA[FIELD DRESSING]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[MARCHING PLAN]]></entry>
+	<entry id="camping_skill_name_triage_musk"><![CDATA[TRIAGE]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+  </language>
+  
+  <language id="french">
+
+	<!-- Musketeer Camping Skills -->
+    <entry id="camping_skill_name_field_dressing_musk"><![CDATA[PREMIERS SECOURS]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[PLAN DE BATAILLE]]></entry>
+	<entry id="camping_skill_name_triage_musk"><![CDATA[TRIAGE]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+	
+  </language>
+  <language id="german">
+
+	<!-- Musketeer Camping Skills -->
+	<entry id="camping_skill_name_field_dressing_musk"><![CDATA[FELDVERBAND]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[MARSCHPLAN]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[TRIAGE]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+	
+  </language>
+
+  <language id="spanish">
+
+	<!-- Musketeer Camping Skills -->
+	<entry id="camping_skill_name_field_dressing_musk"><![CDATA[VENDAJE DE CAMPO]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[PLAN DE MARCHA]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[TRIAJE]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+	
+  </language>
+
+  <language id="brazilian">
+	<!-- Musketeer Camping Skills -->
+	<entry id="camping_skill_name_field_dressing_musk"><![CDATA[ESPARADRAPOS]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[PLANO DE MARCHA]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[TRIAGEM]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+	
+  </language>
+  
+  <language id="russian">
+	
+	<!-- Musketeer Camping Skills -->
+	<entry id="camping_skill_name_field_dressing_musk"><![CDATA[ПОЛЕВАЯ ФОРМА]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[ПЛАН ПОХОДА]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[ОЧЕРЁДНОСТЬ]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+  </language>
+  
+  <language id="polish">
+	
+	<!-- Musketeer Camping Skills -->
+    <entry id="camping_skill_name_field_dressing_musk"><![CDATA[KURACJA POLOWA]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[PLAN MARSZU]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[TRIADA]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+	
+  </language>
+
+  <language id="czech">
+
+	<!-- Musketeer Camping Skills -->
+    <entry id="camping_skill_name_field_dressing_musk"><![CDATA[POLNÍ OBVAZY]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[PLÁN POCHODU]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[TŘÍDĚNÍ RANĚNÝCH]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+
+  </language>
+
+  <language id="italian">
+	
+	<!-- Musketeer Camping Skills -->
+    <entry id="camping_skill_name_field_dressing_musk"><![CDATA[BENDAGGIO]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[PIANI DI MARCIA]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[TRIAGE]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+	
+  </language>
+
+  <language id="schinese">
+
+	<!-- Musketeer Camping Skills -->
+    <entry id="camping_skill_name_field_dressing_musk"><![CDATA[战地急救]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[行军计划]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[群体治疗]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+	
+  </language>
+
+    <language id="japanese">
+
+	<!-- Musketeer Camping Skills -->
+    <entry id="camping_skill_name_field_dressing_musk"><![CDATA[応急手当]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[進軍計画]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[トリアージュ]]></entry>
+	
+	<!-- Camping Skills -->
+	<entry id="str_bark_field_dressing_musk"><![CDATA[Even great wounds are treatable. Get back in this fight.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[If we learn to move in ordered fashion, we will fight better together.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[Shut your traps and let me tend to those wounds.]]></entry>
+
+	
+  </language>
+
+  <language id="koreanb">
+
+	<!-- Musketeer Camping Skills -->
+    <entry id="camping_skill_name_field_dressing_musk"><![CDATA[응급 치료]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[행군 계획]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[환자 분류]]></entry>
+	
+	<!-- Camping Skills -->
+    <entry id="str_bark_field_dressing_musk"><![CDATA[심각한 상처도 치료할 수 있다. 다시 전투에 나서라.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[우리가 정리된 방식으로 이동할 수 있다면, 더 잘 싸울 수 있을 거다.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[입 닥치고 내가 상처를 보게 해줘.]]></entry>
+	
+
+  </language>
+
+  <language id="koreana">
+
+	<!-- Musketeer Camping Skills -->
+    <entry id="camping_skill_name_field_dressing_musk"><![CDATA[응급 치료]]></entry>
+    <entry id="camping_skill_name_marching_plan_musk"><![CDATA[행군 계획]]></entry>
+    <entry id="camping_skill_name_triage_musk"><![CDATA[부상자 분류]]></entry>
+	
+	<!-- Camping Skills -->
+    <entry id="str_bark_field_dressing_musk"><![CDATA[어떤 중상이라도 다 치료할 수 있어. 다시 맞서 싸우라고.]]></entry>
+    <entry id="str_bark_marching_plan_musk"><![CDATA[질서 있게 움직이는 법을 배운다면, 더 잘 싸울 수 있을 거야.]]></entry>
+    <entry id="str_bark_triage_musk"><![CDATA[입 닥치고, 간호하게 상처나 좀 보여줘.]]></entry>
+	
+  </language>
+</root>
