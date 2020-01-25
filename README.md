@@ -1,4 +1,4 @@
-# darkest-dungeon-muskteer-rework-mod
+# darkest-dungeon-muskteer-rework-mod 설명
 
 다키스트 던전의 총사를 리워크하기 위한 프로젝트.
 
@@ -101,3 +101,7 @@
 5. 테스트가 아닌 본 편으로 제공한다.
 
 개발중인 모드입니다. 기여할 능력자들의 많은 기여 부탁드립니다 꾸벅-
+
++ 기여자 가이드
+
+글 작성 이후 완성합니다.
