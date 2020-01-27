@@ -291,9 +291,9 @@
       },      
       {
          "id" : "bulls eye hat dmgL buff",
-         "stat_type" : "combat_stat_multiply",
+         "stat_type" : "combat_stat_add",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.40,
+         "amount" : 3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
