@@ -1,0 +1,12 @@
+{
+   "sets":
+   [
+      {
+         "id" : "cc_msk",
+         "buffs" : 
+         [
+            "SET_arb_PROT_B1"
+         ]
+      }
+  ]
+}
