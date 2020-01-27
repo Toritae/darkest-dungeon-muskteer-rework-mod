@@ -4,7 +4,7 @@
 
 깃허브 구동 방법: <https://gall.dcinside.com/mgallery/board/view/?id=darkest&no=158138&exception_mode=recommend&page=1>
 
-올바른 기여 방법: <https://gall.dcinside.com/mgallery/board/view/?id=darkest&no=158277&exception_mode=recommend&page=1>
+기여 방법: <https://gall.dcinside.com/mgallery/board/view/?id=darkest&no=158277&exception_mode=recommend&page=1>
 
 풀 리퀘스트(pull-request): 작성 예정
 
