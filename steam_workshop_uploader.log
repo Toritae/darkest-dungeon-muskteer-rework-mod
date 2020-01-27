@@ -179,6 +179,7 @@ raid/camping/default.camping_skills.json
 raid/camping/musketeer.camping_skills.json
 shared/buffs/musketeer.buffs.json
 upgrades/heroes/musketeer.upgrades.json
+audio/musketeer.campaign.guid_overrides.json
 audio/musketeer.heroes.load_order.json
 effects/musketeer.effects.darkest
 localization/1973207593_brazilian.loc
@@ -203,12 +204,13 @@ localization/localization.exe
 localization/musketeer.string_table.xml
 localization/steam_api.dll
 trinkets/musketeer.entries.trinkets.json
+CONTRIBUTING.md
 README.md
 modfiles.txt
 preview_icon.png
 project.xml
 rework_musketeer.xml
 
-Submitting...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................Submitted.
+Submitting..................................................................................................................Submitted.
 Saving project file D:\musketeer\rework_musketeer.xml
 

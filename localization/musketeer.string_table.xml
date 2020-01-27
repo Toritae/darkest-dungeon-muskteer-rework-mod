@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <language id="english">
+  <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+  <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
+
 	<!-- Musketeer Camping Skills -->
     <entry id="camping_skill_name_field_dressing_musk"><![CDATA[FIELD DRESSING]]></entry>
     <entry id="camping_skill_name_marching_plan_musk"><![CDATA[MARCHING PLAN]]></entry>
@@ -14,6 +20,11 @@
   </language>
   
   <language id="french">
+    <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
 
 	<!-- Musketeer Camping Skills -->
     <entry id="camping_skill_name_field_dressing_musk"><![CDATA[PREMIERS SECOURS]]></entry>
@@ -28,6 +39,11 @@
 	
   </language>
   <language id="german">
+    <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
 
 	<!-- Musketeer Camping Skills -->
 	<entry id="camping_skill_name_field_dressing_musk"><![CDATA[FELDVERBAND]]></entry>
@@ -43,6 +59,11 @@
   </language>
 
   <language id="spanish">
+    <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
 
 	<!-- Musketeer Camping Skills -->
 	<entry id="camping_skill_name_field_dressing_musk"><![CDATA[VENDAJE DE CAMPO]]></entry>
@@ -58,6 +79,12 @@
   </language>
 
   <language id="brazilian">
+      <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
+  
 	<!-- Musketeer Camping Skills -->
 	<entry id="camping_skill_name_field_dressing_musk"><![CDATA[ESPARADRAPOS]]></entry>
     <entry id="camping_skill_name_marching_plan_musk"><![CDATA[PLANO DE MARCHA]]></entry>
@@ -72,6 +99,11 @@
   </language>
   
   <language id="russian">
+    <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
 	
 	<!-- Musketeer Camping Skills -->
 	<entry id="camping_skill_name_field_dressing_musk"><![CDATA[ПОЛЕВАЯ ФОРМА]]></entry>
@@ -86,6 +118,11 @@
   </language>
   
   <language id="polish">
+    <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
 	
 	<!-- Musketeer Camping Skills -->
     <entry id="camping_skill_name_field_dressing_musk"><![CDATA[KURACJA POLOWA]]></entry>
@@ -101,6 +138,11 @@
   </language>
 
   <language id="czech">
+    <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
 
 	<!-- Musketeer Camping Skills -->
     <entry id="camping_skill_name_field_dressing_musk"><![CDATA[POLNÍ OBVAZY]]></entry>
@@ -116,6 +158,11 @@
   </language>
 
   <language id="italian">
+    <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
 	
 	<!-- Musketeer Camping Skills -->
     <entry id="camping_skill_name_field_dressing_musk"><![CDATA[BENDAGGIO]]></entry>
@@ -131,6 +178,11 @@
   </language>
 
   <language id="schinese">
+    <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
 
 	<!-- Musketeer Camping Skills -->
     <entry id="camping_skill_name_field_dressing_musk"><![CDATA[战地急救]]></entry>
@@ -146,6 +198,11 @@
   </language>
 
     <language id="japanese">
+      <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[LOW DMG %+d]]></entry>
 
 	<!-- Musketeer Camping Skills -->
     <entry id="camping_skill_name_field_dressing_musk"><![CDATA[応急手当]]></entry>
@@ -161,6 +218,11 @@
   </language>
 
   <language id="koreanb">
+    <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[응급 처치]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[최소 피해량 %+d]]></entry>
 
 	<!-- Musketeer Camping Skills -->
     <entry id="camping_skill_name_field_dressing_musk"><![CDATA[응급 치료]]></entry>
@@ -176,6 +238,11 @@
   </language>
 
   <language id="koreana">
+    <!-- tooltip -->
+  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[응급 처치]]></entry>
+
+    <!-- buff tooltip-->
+    <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[최소 피해 %+d]]></entry>
 
 	<!-- Musketeer Camping Skills -->
     <entry id="camping_skill_name_field_dressing_musk"><![CDATA[응급 치료]]></entry>

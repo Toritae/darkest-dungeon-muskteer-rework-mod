@@ -1,0 +1,22 @@
+{
+   "entries":
+   [
+      {
+         "id" : "com_msk_icosahedric_balls",
+         "buffs" : 
+         [
+            "TRINKET_com_msk_icosahedric_balls_dmg_low_B20",
+            "TRINKET_com_msk_icosahedric_balls_dmg_high_B20",
+            "TRINKET_com_msk_icosahedric_balls_random_chance_20"
+         ],
+         "hero_class_requirements":
+         [
+            "musketeer"
+         ],
+         "rarity" : "comet",
+         "shard" : 150,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      }
+   ]
+}
