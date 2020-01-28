@@ -89,17 +89,9 @@
 					"amount" : 0.20
 				},
 				{ 
-					"selection" : "self",
-					"requirements" : [],
-					"chance" : { "code" : "c", "amount": 1.0 },
-                    "type": "buff",
-                    "sub_type" : "campingScoutingBuff",
-					"amount" :  0.20
-				},
-				{ 
 					"selection" : "party",
 					"requirements" : [],
-					"chance" : { "code" : "d", "amount": 1.0 },
+					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "buff",
                     "sub_type" : "campingMoveResistBuff",
 					"amount" :  0.30
@@ -184,7 +176,7 @@
 		{ 
 			"id" : "triage_musk",
 			"level" : 0,
-			"cost" : 7,
+			"cost" : 6,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -195,14 +187,6 @@
                     "type": "health_heal_max_health_percent",
                     "sub_type" : "",
 					"amount" :  0.20
-				},
-				{
-					"selection" : "party",
-					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1.0 },
-					"type": "remove_disease",
-					"sub_type": "",
-					"amount": 0
 				},
 				{	"selection" : "party",
 					"requirements" : [],
