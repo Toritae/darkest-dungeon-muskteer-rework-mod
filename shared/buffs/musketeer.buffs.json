@@ -282,29 +282,29 @@
       "is_clear_debuff_valid": false
    },
    {
-      "id" : "Medics boots bleed cure",
-      "stat_type" : "cure_bleed_chance",
+      "id" : "Medics boots bleed cure buff",
+      "stat_type" : "hp_heal_percent",
       "stat_sub_type" : "",
-      "amount" : 1,
+      "amount" : 0.5,
       "remove_if_not_active" : false,
-      "rule_type" : "skill",
+      "rule_type" : "actorStatus",
       "is_false_rule" : false,
       "rule_data" : {
          "float" : 0,
-         "string" : "patch_up"
+         "string" : "bleeding"
       }
    },
    {
-      "id" : "Medics boots poison cure",
-      "stat_type" : "cure_poison_chance",
+      "id" : "Medics boots poison cure buff",
+      "stat_type" : "hp_heal_percent",
       "stat_sub_type" : "",
-      "amount" : 1,
+      "amount" : 0.5,
       "remove_if_not_active" : false,
-      "rule_type" : "skill",
+      "rule_type" : "actorStatus",
       "is_false_rule" : false,
       "rule_data" : {
          "float" : 0,
-         "string" : "patch_up"
+         "string" : "poisoned"
       }
    },
    {

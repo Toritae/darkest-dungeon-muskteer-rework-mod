@@ -39,14 +39,9 @@ effect: .name "Patch Up Heal 1" .target "target" .curio_result_type "positive" .
 effect: .name "Patch Up Heal 2" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.11	.on_hit true .on_miss false .queue true
 effect: .name "Patch Up Heal 3" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.12	.on_hit true .on_miss false .queue true
 effect: .name "Patch Up Heal 4" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.13	.on_hit true .on_miss false .queue true
-effect: .name "Patch Up Heal 5" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.15	.on_hit true .on_miss false .queue true
+effect: .name "Patch Up Heal 5" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.25	.on_hit true .on_miss false .queue true
 
 //skeet shot
-effect: .name "Skeet Crit Debuff 1" .target "target" .curio_result_type "negative" .chance 90%  .duration 3  .combat_stat_buff 1 .crit_chance_add -5%  .on_hit true .on_miss false
-effect: .name "Skeet Crit Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .duration 3  .combat_stat_buff 1 .crit_chance_add -6%  .on_hit true .on_miss false
-effect: .name "Skeet Crit Debuff 3" .target "target" .curio_result_type "negative" .chance 110% .duration 3  .combat_stat_buff 1 .crit_chance_add -8%  .on_hit true .on_miss false
-effect: .name "Skeet Crit Debuff 4" .target "target" .curio_result_type "negative" .chance 120% .duration 3  .combat_stat_buff 1 .crit_chance_add -10%  .on_hit true .on_miss false
-effect: .name "Skeet Crit Debuff 5" .target "target" .curio_result_type "negative" .chance 130% .duration 3  .combat_stat_buff 1 .crit_chance_add -12%  .on_hit true .on_miss false
 
 effect: .name "Skeet Received Damage Debuff 1" .target "target" .curio_result_type "negative" .chance 90%  .buff_ids "SS damage received debuff 1"  .on_hit true .on_miss false
 effect: .name "Skeet Received Damage Debuff 2" .target "target" .curio_result_type "negative" .chance 100%  .buff_ids "SS damage received debuff 2"  .on_hit true .on_miss false
@@ -60,7 +55,7 @@ effect: .name "Skeet Block Guard 3" .target "target" .chance 110% .buff_ids "blo
 effect: .name "Skeet Block Guard 4" .target "target" .chance 120% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
 effect: .name "Skeet Block Guard 5" .target "target" .chance 130% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
 
-//skeet shot plan
+//skeet shot 더미데이터
 
 effect: .name "Skeet Buff Self 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .attack_rating_add 6%  .crit_chance_add 4%  .on_hit true .on_miss true	.queue true
 effect: .name "Skeet Buff Self 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .attack_rating_add 8%  .crit_chance_add 4%  .on_hit true .on_miss true	.queue true
@@ -68,6 +63,11 @@ effect: .name "Skeet Buff Self 3" .target "performer" .curio_result_type "positi
 effect: .name "Skeet Buff Self 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .attack_rating_add 12%  .crit_chance_add 5%  .on_hit true .on_miss true	.queue true
 effect: .name "Skeet Buff Self 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .attack_rating_add 15%  .crit_chance_add 6%  .on_hit true .on_miss true	.queue true
 
+effect: .name "Skeet Crit Debuff 1" .target "target" .curio_result_type "negative" .chance 90%  .duration 3  .combat_stat_buff 1 .crit_chance_add -5%  .on_hit true .on_miss false
+effect: .name "Skeet Crit Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .duration 3  .combat_stat_buff 1 .crit_chance_add -6%  .on_hit true .on_miss false
+effect: .name "Skeet Crit Debuff 3" .target "target" .curio_result_type "negative" .chance 110% .duration 3  .combat_stat_buff 1 .crit_chance_add -8%  .on_hit true .on_miss false
+effect: .name "Skeet Crit Debuff 4" .target "target" .curio_result_type "negative" .chance 120% .duration 3  .combat_stat_buff 1 .crit_chance_add -10%  .on_hit true .on_miss false
+effect: .name "Skeet Crit Debuff 5" .target "target" .curio_result_type "negative" .chance 130% .duration 3  .combat_stat_buff 1 .crit_chance_add -12%  .on_hit true .on_miss false
 
 //crit
     //See base.buff.json. So, this effect boosts speed 2 and damage 20%.
