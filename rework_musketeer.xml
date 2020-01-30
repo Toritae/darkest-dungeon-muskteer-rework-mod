@@ -1,20 +1,192 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>D:/musketeer/</ModDataPath>
-	<Title>musketeer test</Title>
+	<ModDataPath>D:\musketeer</ModDataPath>
+	<Title>DC's musketeer rework mod! (BETA)</Title>
 	<Language>korean</Language>
 	<UpdateDetails/>
-	<Visibility>private</Visibility>
+	<Visibility>public</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
-	<VersionMinor>2</VersionMinor>
+	<VersionMinor>5</VersionMinor>
 	<TargetBuild>0</TargetBuild>
 	<Tags>
 		<Tags>characters</Tags>
 	</Tags>
-	<ItemDescription>총사 리워크를 시도한 모드의 preview 버전입니다. 전용 장신구들과 일부 항목은 아직 조정되지 않았습니다. 성능은 갤 참고. 정식 공개시 창작마당에 따로 업로드할 예정입니다.</ItemDescription>
+	<ItemDescription>The mod reworks Musketeer. This mod is yet to be completed, and can be applied without Crimson Court and Color of Madness DLC. However, DLC trinkets can be also reworked in further patches.
+
+We cordially request you for feedbacks on characteristics, power level, and balance with other heroes for the new Musketeer. We cannot thank you enough for them :)
+
+So far, we have applied the following changes:
+
+1. Lv 5 base DMG is changed to that of Highwayman (9-16).
+
+2. Lv 5 combat skills are changed to the following.
+
+Aimed Shot ( O O X X - X O O O ) (The order follows Rank - Target)
+
+ACC: 115
+
+DMG: +20% (starts from +0% in Lv 1)
+
+CRT: +9%
+
++10 ACC vs MARKED, +40% Armor Piercing vs MAKRED (starts from +20% in Lv 1)
+
+Smokescreen ( O O O O )
+
+Stealth (3 rds)
+
+Target:
+
+Buff: SPD +4 (starts from +2 in Lv 1)
+
+Debuff: ACC -10 (starts from -18 in Lv 1)
+
+Call the Shot ( O O X X - X O O O )
+
+ACC: 120
+
+DMG: -40% (starts from -50% in Lv 1)
+
+CRT: -2%
+
+MARK Target (3 rds)
+
+Target:
+
+Debuff: +10% Crits Received (140 percent base)
+
+Buckshot ( X O O O - O X X X )
+
+ACC: 115
+
+DMG: -20%
+
+CRT: +4%
+
+Target:
+
+Knockback 3 (140 percent base)
+
+Sidearm ( X X O O - X O O O )
+
+ACC: 100
+
+DMG: -25%
+
+CRT: +0%
+
+Patch Up ( O O O O )
+
+Heal +15% of max HP
+
+Skeet Shot ( O O X X - X O O O ) - susceptible to changes (Buff Self: CRT +6, ACC +15)
+
+ACC: 115
+
+DMG: -100%
+
+Bypass/Remove STEALTH
+
+Bypass GUARD / Break GUARD
+
+MARK Target (3 rds)
+
+Target:
+
+Debuff: Can't be Guarded (130 percent base), +25% DMG Taken (130 percent base)
+
+3. Trinkets are changed to the following.
+
+Sturdy Boots: No changes have been made.
+
+Vengeful Boots (Common -> Uncommon):
+
++15% DMG if HP below 50%
+
++12% CRT if HP below 50%
+
+Medic's Boots (Uncommon -> Rare):
+
+(target bleeding) heals +50% more
+
+(target poisoned) heals +50% more
+
+Bull's Eye Hat:
+
++10 ACC
+
++3 min DMG (with no effect on max DMG)
+
++5% CRT
+
++25% DMG Taken
+
+Wrathful Hat:
+
++25% DMG if in position 3
+
++5 SPD if in position 3
+
+-10 ACC
+
+-15 DODGE
+
+-15 Death Blow Resist
+
+4. Camping skills are changed to the following.
+
+Field Dressing:
+
+3 TC, One Companion
+
+Heal 25% HP (75% chance)
+
+Heal 50% HP (50% chance)
+
++30% Blight Resist
+
++30% Bleed Resist
+
+Marching Plan:
+
+5 TC
+
+Self:
+
+-20% Chance Party Surprised
+
++20% Chance Monsters Surprised
+
+Party:
+
++30% Move Resist
+
+Clean Musket:
+
+5 TC
+
+Self:
+
++30% DMG Ranged Skills
+
++12% CRT Ranged Skills
+
++4 SPD
+
+Triage:
+
+6 TC
+
+Party:
+
+Heal 20% HP
+
+Remove Mortality debuffs
+
+5. Crit Buff Bonus has been changed to +2 SPD, +20% DMG (2 rds).</ItemDescription>
 	<PublishedFileId>1973207593</PublishedFileId>
 </project>
 
