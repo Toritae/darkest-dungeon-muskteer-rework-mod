@@ -73,3 +73,9 @@ effect: .name "Skeet Crit Debuff 5" .target "target" .curio_result_type "negativ
     //See base.buff.json. So, this effect boosts speed 2 and damage 20%.
 
 effect: .name "on_crit_spd_and_dmg"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "on_crit_spd" "on_crit_dmgl" "on_crit_dmgh" .duration 3	.on_hit true .on_miss false .apply_once true
+
+//CC trinket
+
+effect: .name "silver mark target" .target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
+
+effect: .name "SET debuff crit" .target "target" .curio_result_type "negative" .chance 140% .duration 3  .combat_stat_buff 1 .crit_chance_add -6%  .on_hit true .on_miss false

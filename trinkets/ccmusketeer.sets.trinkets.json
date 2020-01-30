@@ -5,7 +5,13 @@
          "id" : "cc_msk",
          "buffs" : 
          [
-            "SET_arb_PROT_B1"
+            "SET SS dmgL",
+            "SET SS dmgH",
+            "SET SS crit"
+         ],
+         "attack_skill_additional_effects":
+         [
+             "SET debuff crit"
          ]
       }
   ]

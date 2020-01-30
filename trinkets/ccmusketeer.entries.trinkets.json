@@ -5,10 +5,7 @@
          "id" : "cc_set_musk_silver_bullet",
          "buffs" : 
          [
-            "TRINKET_arb_sharpshooters_string_wax_MARKEDACC_B1",
-            "TRINKET_arb_sharpshooters_string_wax_MARKEDCRIT_B1",
-            "TRINKET_arb_sharpshooters_string_wax_DEBUFFSKILL_B1",
-            "TRINKET_arb_sharpshooters_string_wax_MOVESKILL_B1"
+            "silver ignore protection"
          ],
          "hero_class_requirements":
          [
@@ -18,15 +15,20 @@
          "rarity" : "crimson_court",
          "price" : 50000,
          "limit" : 1,
-         "origin_dungeon" : "courtyard"
+         "origin_dungeon" : "courtyard",
+         "attack_skill_additional_effects":
+         [
+             "silver mark target"
+         ]
       },
       {
          "id" : "cc_set_musk_first_place_trophy",
          "buffs" : 
          [
-            "TRINKET_arb_childhood_treasure_HEALDONE_B1",
-            "TRINKET_arb_childhood_treasure_HEALDONE_in_camp_B1",
-            "TRINKET_arb_childhood_treasure_STRESSDMGREC_B1"
+            "TRINKET_MOVESKILL_B2",
+            "Second trophy debuff buff",
+            "Second trophy move resist -20",
+            "Second trophy debuff resist -30"
          ],
          "hero_class_requirements":
          [
