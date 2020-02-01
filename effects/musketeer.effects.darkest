@@ -79,3 +79,7 @@ effect: .name "on_crit_spd_and_dmg"    .target "performer" .curio_result_type "p
 effect: .name "silver mark target" .target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
 
 effect: .name "SET debuff crit" .target "target" .curio_result_type "negative" .chance 140% .duration 3  .combat_stat_buff 1 .crit_chance_add -6%  .on_hit true .on_miss false
+
+//test
+
+effect: .name "Grove_Tender_Trinket_Damage" 	.target "performer_group_other" .curio_result_type "positive"  .chance 100% .combat_stat_buff 1 .damage_low_multiply 15% damage_high_multiply 15% .duration 2 buff_duration_type "after_turn" .on_hit true .on_miss true .queue true .apply_once true 

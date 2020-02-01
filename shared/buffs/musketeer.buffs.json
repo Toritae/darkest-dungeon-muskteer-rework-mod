@@ -506,7 +506,7 @@
          "id" : "silver ignore protection",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.25,
+         "amount" : 0.4,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -516,50 +516,17 @@
          }
       },
       {
-         "id" : "SET SS dmgL",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.3,
-         "duration" : 3,
-         "remove_on_battle_complete" : true,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "smokescreen"
-         }
-      },
-      {
-         "id" : "SET SS dmgH",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.3,
-         "duration" : 3,
-         "remove_on_battle_complete" : true,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "smokescreen"
-         }
-      },
-      {
-         "id" : "SET SS crit",
+         "id" : "SET_msk_speed",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.04,
-         "duration" : 3,
-         "remove_on_battle_complete" : true,
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "smokescreen"
+            "string" : ""
          }
       }
    ]
- 
 }
