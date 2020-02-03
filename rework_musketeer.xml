@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>D:\musketeer</ModDataPath>
-	<Title>DC's musketeer rework mod! (BETA)</Title>
+	<ModDataPath>D:/musketeer/</ModDataPath>
+	<Title>DC&apos;s musketeer rework mod! (BETA)</Title>
 	<Language>korean</Language>
 	<UpdateDetails/>
 	<Visibility>public</Visibility>
@@ -96,25 +96,25 @@ MARK Target (3 rds)
 
 Target:
 
-Debuff: Can't be Guarded (130 percent base), +25% DMG Taken (130 percent base)
+Debuff: Can&apos;t be Guarded (130 percent base), +25% DMG Taken (130 percent base)
 
 3. Trinkets are changed to the following.
 
 Sturdy Boots: No changes have been made.
 
-Vengeful Boots (Common -> Uncommon):
+Vengeful Boots (Common -&gt; Uncommon):
 
 +15% DMG if HP below 50%
 
 +12% CRT if HP below 50%
 
-Medic's Boots (Uncommon -> Rare):
+Medic&apos;s Boots (Uncommon -&gt; Rare):
 
 (target bleeding) heals +50% more
 
 (target poisoned) heals +50% more
 
-Bull's Eye Hat:
+Bull&apos;s Eye Hat:
 
 +10 ACC
 

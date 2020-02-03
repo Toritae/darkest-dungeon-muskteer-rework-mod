@@ -462,7 +462,71 @@
             "float" : 0,
             "string" : ""
          }
+      },
+      {
+         "id" : "Second trophy debuff buff",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Second trophy move resist -20",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Second trophy debuff resist -30",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "silver ignore protection",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SET crit received buff",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
    ]
- 
 }
