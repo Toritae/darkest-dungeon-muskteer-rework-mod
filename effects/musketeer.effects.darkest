@@ -78,7 +78,7 @@ effect: .name "on_crit_spd_and_dmg"    .target "performer" .curio_result_type "p
 
 effect: .name "silver mark target" .target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
 
-effect: .name "SET debuff crit" .target "target" .curio_result_type "negative" .chance 140% .duration 3  .combat_stat_buff 1 .crit_chance_add -6%  .on_hit true .on_miss false
+effect: .name "Friendly skill Clear" .target "target" .chance 100% .unstun 1 .untag 1 .on_hit true .on_miss false
 
 //test
 

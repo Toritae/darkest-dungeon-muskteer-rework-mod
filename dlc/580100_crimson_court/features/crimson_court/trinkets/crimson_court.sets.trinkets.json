@@ -128,7 +128,7 @@
          "id" : "cc_msk",
          "buffs" : 
          [
-            "SET_msk_speed"
+            "SET crit received buff"
          ]
       }
    ]

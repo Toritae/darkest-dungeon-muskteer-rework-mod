@@ -803,7 +803,11 @@
          "rarity" : "crimson_court",
          "price" : 50000,
          "limit" : 1,
-         "origin_dungeon" : "courtyard"
+         "origin_dungeon" : "courtyard",
+         "friendly_skill_additional_effects":
+         [
+            "Friendly skill Clear"
+         ]
       }
    ]
 }

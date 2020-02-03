@@ -516,10 +516,10 @@
          }
       },
       {
-         "id" : "SET_msk_speed",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 4,
+         "id" : "SET crit received buff",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
