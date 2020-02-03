@@ -19,14 +19,17 @@ Searching for preview icon file H:/Program Files (x86)/Steam/steamapps/workshop/
 
 
 -------------------------------------------------------------------------------
-Detected 2 unchanged files
+Detected 3 unchanged files
 The following files are unchanged and will be uploaded...
+H:/Program Files (x86)/Steam/steamapps/workshop/content/262060/1973207593/dlc/735730_color_of_madness/trinkets/com.entries.trinkets.json
 H:/Program Files (x86)/Steam/steamapps/workshop/content/262060/1973207593/raid/camping/skill_icons/camp_skill_clean_musket.png
 H:/Program Files (x86)/Steam/steamapps/workshop/content/262060/1973207593/colours/base.colours.darkest
 
 -------------------------------------------------------------------------------
 Modded files...
 
+dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.entries.trinkets.json
+dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.sets.trinkets.json
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.afflicted.png
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.attack_artillery.png
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.attack_bandage.png
@@ -136,9 +139,3 @@ heroes/musketeer/fx/musketeer.sprite.sidearm_target.atlas
 heroes/musketeer/fx/musketeer.sprite.sidearm_target.png
 heroes/musketeer/fx/musketeer.sprite.sidearm_target.skel
 heroes/musketeer/fx/musketeer.sprite.skeet_shot.atlas
-heroes/musketeer/fx/musketeer.sprite.skeet_shot.png
-heroes/musketeer/fx/musketeer.sprite.skeet_shot.skel
-heroes/musketeer/fx/musketeer.sprite.smokescreen.atlas
-heroes/musketeer/fx/musketeer.sprite.smokescreen.png
-heroes/musketeer/fx/musketeer.sprite.smokescreen.skel
-heroes/musketeer/fx/musketeer.sprite.smokescreen_target.atlas

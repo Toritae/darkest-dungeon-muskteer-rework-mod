@@ -73,3 +73,13 @@ effect: .name "Skeet Crit Debuff 5" .target "target" .curio_result_type "negativ
     //See base.buff.json. So, this effect boosts speed 2 and damage 20%.
 
 effect: .name "on_crit_spd_and_dmg"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "on_crit_spd" "on_crit_dmgl" "on_crit_dmgh" .duration 3	.on_hit true .on_miss false .apply_once true
+
+//CC trinket
+
+effect: .name "silver mark target" .target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
+
+effect: .name "Friendly skill Clear" .target "target" .chance 100% .unstun 1 .untag 1 .on_hit true .on_miss false
+
+//test
+
+effect: .name "Grove_Tender_Trinket_Damage" 	.target "performer_group_other" .curio_result_type "positive"  .chance 100% .combat_stat_buff 1 .damage_low_multiply 15% damage_high_multiply 15% .duration 2 buff_duration_type "after_turn" .on_hit true .on_miss true .queue true .apply_once true 
