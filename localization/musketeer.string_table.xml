@@ -2,7 +2,9 @@
 <root>
   <language id="english">
   <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
 
   <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -21,7 +23,9 @@
   
   <language id="french">
     <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -40,7 +44,10 @@
   </language>
   <language id="german">
     <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
+
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -60,7 +67,10 @@
 
   <language id="spanish">
     <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
+
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -80,7 +90,10 @@
 
   <language id="brazilian">
       <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
+
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -100,7 +113,10 @@
   
   <language id="russian">
     <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
+
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -119,7 +135,9 @@
   
   <language id="polish">
     <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -139,7 +157,9 @@
 
   <language id="czech">
     <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -159,7 +179,9 @@
 
   <language id="italian">
     <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -179,7 +201,9 @@
 
   <language id="schinese">
     <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -199,7 +223,9 @@
 
     <language id="japanese">
       <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[patch up]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[Aimed Shot]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[Sidearm]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[Buckshot]]></entry>
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[MIN DMG %+d]]></entry>
@@ -219,7 +245,9 @@
 
   <language id="koreanb">
     <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[응급 처치]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[조준 사격]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[권총 사격]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[산탄]]></entry>
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[최소 피해량 %+d]]></entry>
@@ -239,7 +267,9 @@
 
   <language id="koreana">
     <!-- tooltip -->
-  <entry id="buff_rule_data_tooltip_patch_up"><![CDATA[응급 처치]]></entry>
+    <entry id="buff_rule_data_tooltip_aimed_shot"><![CDATA[조준 사격]]></entry>
+    <entry id="buff_rule_data_tooltip_sidearm"><![CDATA[권총 사격]]></entry>
+    <entry id="buff_rule_data_tooltip_buckshot"><![CDATA[산탄]]></entry>
 
     <!-- buff tooltip-->
     <entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[최소 피해 %+d]]></entry>
