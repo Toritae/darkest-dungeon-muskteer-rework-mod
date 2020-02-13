@@ -177,11 +177,9 @@ localization/localization.bat 30
 localization/localization.exe 13147648
 localization/musketeer.string_table.xml 14704
 localization/steam_api.dll 217376
-trinkets/com.rarities.trinkets.json 428
-trinkets/commusketeer.entries.trinkets.json 531
 trinkets/musketeer.entries.trinkets.json 2296
 CONTRIBUTING.md 1148
-README.md 4278
+README.md 5025
 modfiles.txt 10933
 preview_icon.png 35052
 project.xml 3259

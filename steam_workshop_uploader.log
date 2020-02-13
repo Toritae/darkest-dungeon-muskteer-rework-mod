@@ -206,8 +206,6 @@ localization/localization.bat
 localization/localization.exe
 localization/musketeer.string_table.xml
 localization/steam_api.dll
-trinkets/com.rarities.trinkets.json
-trinkets/commusketeer.entries.trinkets.json
 trinkets/musketeer.entries.trinkets.json
 CONTRIBUTING.md
 README.md
@@ -216,6 +214,6 @@ preview_icon.png
 project.xml
 rework_musketeer.xml
 
-Submitting.............................................................................................................................Submitted.
+Submitting......................................................................................................................................................Submitted.
 Saving project file D:\musketeer\rework_musketeer.xml
 

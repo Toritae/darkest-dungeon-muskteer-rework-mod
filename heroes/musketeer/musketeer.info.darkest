@@ -1,25 +1,25 @@
-resistances: .stun 40% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 10%
+resistances: .stun 40% .poison 50% .bleed 50% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 10%
 crit: .effects "on_crit_spd_and_dmg"
 weapon: .name "musketeer_weapon_0" .atk 0% .dmg 5 10 .crit 6%  .spd 3
-weapon: .name "musketeer_weapon_1" .atk 0% .dmg 6 12 .crit 7%  .spd 3 .upgradeRequirementCode 0
-weapon: .name "musketeer_weapon_2" .atk 0% .dmg 7 13 .crit 8%  .spd 4 .upgradeRequirementCode 1
-weapon: .name "musketeer_weapon_3" .atk 0% .dmg 8 15 .crit 9%  .spd 4 .upgradeRequirementCode 2
-weapon: .name "musketeer_weapon_4" .atk 0% .dmg 9 16 .crit 10% .spd 5 .upgradeRequirementCode 3
-armour: .name "musketeer_armour_0" .def 0% .prot 0 .hp 27  .spd 0
-armour: .name "musketeer_armour_1" .def 5% .prot 0 .hp 32  .spd 0 .upgradeRequirementCode 0
-armour: .name "musketeer_armour_2" .def 10% .prot 0 .hp 37 .spd 0 .upgradeRequirementCode 1
-armour: .name "musketeer_armour_3" .def 15% .prot 0 .hp 42 .spd 0 .upgradeRequirementCode 2
-armour: .name "musketeer_armour_4" .def 20% .prot 0 .hp 47 .spd 0 .upgradeRequirementCode 3
-combat_skill: .id "aimed_shot" .level 0 .type "ranged" .atk 95%  .dmg 5% .crit 5% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper" "Sniper ignore protection 1" .generation_guaranteed true
-combat_skill: .id "aimed_shot" .level 1 .type "ranged" .atk 100%  .dmg 5% .crit 6% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper" "Sniper ignore protection 2"
+weapon: .name "musketeer_weapon_1" .atk 0% .dmg 6 12 .crit 7%  .spd 4 .upgradeRequirementCode 0
+weapon: .name "musketeer_weapon_2" .atk 0% .dmg 7 13 .crit 8%  .spd 6 .upgradeRequirementCode 1
+weapon: .name "musketeer_weapon_3" .atk 0% .dmg 8 15 .crit 9%  .spd 6 .upgradeRequirementCode 2
+weapon: .name "musketeer_weapon_4" .atk 0% .dmg 9 16 .crit 10% .spd 7 .upgradeRequirementCode 3
+armour: .name "musketeer_armour_0" .def 0% .prot 0 .hp 26  .spd 0
+armour: .name "musketeer_armour_1" .def 5% .prot 0 .hp 30  .spd 0 .upgradeRequirementCode 0
+armour: .name "musketeer_armour_2" .def 10% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 1
+armour: .name "musketeer_armour_3" .def 15% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 2
+armour: .name "musketeer_armour_4" .def 20% .prot 0 .hp 42 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "aimed_shot" .level 0 .type "ranged" .atk 95%  .dmg 10% .crit 5% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper" "Sniper ignore protection 1" .generation_guaranteed true
+combat_skill: .id "aimed_shot" .level 1 .type "ranged" .atk 100%  .dmg 10% .crit 6% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper" "Sniper ignore protection 2"
 combat_skill: .id "aimed_shot" .level 2 .type "ranged" .atk 105%  .dmg 10% .crit 7% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper" "Sniper ignore protection 3"
 combat_skill: .id "aimed_shot" .level 3 .type "ranged" .atk 110% .dmg 15% .crit 8% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper" "Sniper ignore protection 4"
 combat_skill: .id "aimed_shot" .level 4 .type "ranged" .atk 115% .dmg 20% .crit 9% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper" "Sniper ignore protection 5"
-combat_skill: .id "smokescreen" .level 0 .launch 4321 .target @1234 .per_battle_limit 2 .effect "Stealth3" "SS ACC Debuff 1" "SS SP buff 1"
-combat_skill: .id "smokescreen" .level 1 .launch 4321 .target @1234 .per_battle_limit 2 .effect "Stealth3" "SS ACC Debuff 2" "SS SP buff 1"
-combat_skill: .id "smokescreen" .level 2 .launch 4321 .target @1234 .per_battle_limit 2 .effect "Stealth3" "SS ACC Debuff 3" "SS SP buff 2"
-combat_skill: .id "smokescreen" .level 3 .launch 4321 .target @1234 .per_battle_limit 2 .effect "Stealth3" "SS ACC Debuff 4" "SS SP buff 2"
-combat_skill: .id "smokescreen" .level 4 .launch 4321 .target @1234 .per_battle_limit 2 .effect "Stealth3" "SS ACC Debuff 5" "SS SP buff 3"
+combat_skill: .id "smokescreen" .level 0 .launch 4321 .target @1234 .per_battle_limit 3 .effect "Stealth3" "SS ACC Debuff 1" "SS SP buff 1"
+combat_skill: .id "smokescreen" .level 1 .launch 4321 .target @1234 .per_battle_limit 3 .effect "Stealth3" "SS ACC Debuff 2" "SS SP buff 1"
+combat_skill: .id "smokescreen" .level 2 .launch 4321 .target @1234 .per_battle_limit 3 .effect "Stealth3" "SS ACC Debuff 3" "SS SP buff 2"
+combat_skill: .id "smokescreen" .level 3 .launch 4321 .target @1234 .per_battle_limit 3 .effect "Stealth3" "SS ACC Debuff 4" "SS SP buff 2"
+combat_skill: .id "smokescreen" .level 4 .launch 4321 .target @1234 .per_battle_limit 3 .effect "Stealth3" "SS ACC Debuff 5" "SS SP buff 3"
 combat_skill: .id "call_the_shot" .level 0 .type "ranged" .atk 100% .dmg -50% .crit -6% .launch 43 .target 234 .is_crit_valid True   .effect "Arb Mark Target" "CS debuff 1" .is_stall_invalidating false
 combat_skill: .id "call_the_shot" .level 1 .type "ranged" .atk 105% .dmg -50% .crit -5% .launch 43 .target 234 .is_crit_valid True   .effect "Arb Mark Target" "CS debuff 2" .is_stall_invalidating false
 combat_skill: .id "call_the_shot" .level 2 .type "ranged" .atk 110% .dmg -50% .crit -4% .launch 43 .target 234 .is_crit_valid True   .effect "Arb Mark Target" "CS debuff 3" .is_stall_invalidating false
