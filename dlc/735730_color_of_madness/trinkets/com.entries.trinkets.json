@@ -319,8 +319,8 @@
          "id" : "com_msk_icosahedric_balls",
          "buffs" : 
          [
-            "TRINKET icosahedric balls sidearm dmgL 60",
-            "TRINKET icosahedric balls sidearm dmgH 60",
+            "TRINKET icosahedric balls sidearm dmgL 100",
+            "TRINKET icosahedric balls sidearm dmgH 100",
             "TRINKET icosahedric balls sidearm aac",
             "TRINKET icosahedric balls sidearm crit",
             "TRINKET icosahedric balls buckshot dmgL 50",

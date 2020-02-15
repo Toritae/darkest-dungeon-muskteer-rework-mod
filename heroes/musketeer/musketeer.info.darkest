@@ -1,15 +1,15 @@
-resistances: .stun 40% .poison 50% .bleed 50% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 10%
+resistances: .stun 30% .poison 40% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 10%
 crit: .effects "on_crit_spd_and_dmg"
 weapon: .name "musketeer_weapon_0" .atk 0% .dmg 5 10 .crit 6%  .spd 3
 weapon: .name "musketeer_weapon_1" .atk 0% .dmg 6 12 .crit 7%  .spd 4 .upgradeRequirementCode 0
 weapon: .name "musketeer_weapon_2" .atk 0% .dmg 7 13 .crit 8%  .spd 6 .upgradeRequirementCode 1
 weapon: .name "musketeer_weapon_3" .atk 0% .dmg 8 15 .crit 9%  .spd 6 .upgradeRequirementCode 2
 weapon: .name "musketeer_weapon_4" .atk 0% .dmg 9 16 .crit 10% .spd 7 .upgradeRequirementCode 3
-armour: .name "musketeer_armour_0" .def 0% .prot 0 .hp 26  .spd 0
-armour: .name "musketeer_armour_1" .def 5% .prot 0 .hp 30  .spd 0 .upgradeRequirementCode 0
-armour: .name "musketeer_armour_2" .def 10% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 1
-armour: .name "musketeer_armour_3" .def 15% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 2
-armour: .name "musketeer_armour_4" .def 20% .prot 0 .hp 42 .spd 0 .upgradeRequirementCode 3
+armour: .name "musketeer_armour_0" .def 0% .prot 0 .hp 24  .spd 0
+armour: .name "musketeer_armour_1" .def 5% .prot 0 .hp 28  .spd 0 .upgradeRequirementCode 0
+armour: .name "musketeer_armour_2" .def 10% .prot 0 .hp 32 .spd 0 .upgradeRequirementCode 1
+armour: .name "musketeer_armour_3" .def 15% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 2
+armour: .name "musketeer_armour_4" .def 20% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "aimed_shot" .level 0 .type "ranged" .atk 95%  .dmg 10% .crit 5% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper" "Sniper ignore protection 1" .generation_guaranteed true
 combat_skill: .id "aimed_shot" .level 1 .type "ranged" .atk 100%  .dmg 10% .crit 6% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper" "Sniper ignore protection 2"
 combat_skill: .id "aimed_shot" .level 2 .type "ranged" .atk 105%  .dmg 10% .crit 7% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper" "Sniper ignore protection 3"
