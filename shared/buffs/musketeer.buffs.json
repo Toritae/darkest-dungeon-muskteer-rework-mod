@@ -386,19 +386,6 @@
          }
       },
       {
-         "id" : "wrathful hat aac debuff",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : -0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-      {
          "id" : "wrathful hat def debuff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
@@ -477,10 +464,10 @@
          }
       },
       {
-         "id" : "Second trophy move resist -20",
+         "id" : "Second trophy move resist -30",
          "stat_type" : "resistance",
          "stat_sub_type" : "move",
-         "amount" : -0.2,
+         "amount" : -0.3,
          "remove_if_not_active" : false,
          "rule_type" : "stress_above",
          "is_false_rule" : false,
@@ -490,10 +477,10 @@
          }
       },
       {
-         "id" : "Second trophy debuff resist -30",
+         "id" : "Second trophy debuff resist -40",
          "stat_type" : "resistance",
          "stat_sub_type" : "debuff",
-         "amount" : -0.30,
+         "amount" : -0.40,
          "remove_if_not_active" : false,
          "rule_type" : "stress_above",
          "is_false_rule" : false,
@@ -581,32 +568,6 @@
          }
       },
       {
-         "id" : "TRINKET icosahedric balls sidearm crit",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.04,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "sidearm"
-         }
-      },
-      {
-         "id" : "TRINKET icosahedric balls sidearm aac",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "skill",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "sidearm"
-         }
-      },
-      {
        "id" : "TRINKET icosahedric balls ignore protection buckshot",
        "stat_type" : "ignore_protection",
        "stat_sub_type" : "",
@@ -650,6 +611,19 @@
       "stat_type" : "stress_dmg_received_percent",
       "stat_sub_type" : "",
       "amount" : 0.2,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+      }
+   },
+   {
+      "id" : "TRINKET icosahedric balls stun resist -50",
+      "stat_type" : "resistance",
+      "stat_sub_type" : "stun",
+      "amount" : -0.5,
       "remove_if_not_active" : false,
       "rule_type" : "always",
       "is_false_rule" : false,

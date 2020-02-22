@@ -321,13 +321,12 @@
          [
             "TRINKET icosahedric balls sidearm dmgL 100",
             "TRINKET icosahedric balls sidearm dmgH 100",
-            "TRINKET icosahedric balls sidearm aac",
-            "TRINKET icosahedric balls sidearm crit",
             "TRINKET icosahedric balls buckshot dmgL 50",
             "TRINKET icosahedric balls buckshot dmgH 50",
             "TRINKET icosahedric balls ignore protection buckshot",
             "TRINKET icosahedric balls aimed shot aac debuff",
             "TRINKET icosahedric balls aimed shot crit debuff",
+            "TRINKET icosahedric balls stun resist -50",
             "TRINKET icosahedric balls stress DMG +20"
          ],
          "hero_class_requirements":

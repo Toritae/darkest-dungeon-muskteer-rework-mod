@@ -770,7 +770,8 @@
          "id" : "cc_set_musk_silver_bullet",
          "buffs" : 
          [
-            "silver ignore protection"
+            "silver ignore protection",
+            "CRIT-5"
          ],
          "hero_class_requirements":
          [
@@ -792,8 +793,8 @@
          [
             "TRINKET_MOVESKILL_B2",
             "Second trophy debuff buff",
-            "Second trophy move resist -20",
-            "Second trophy debuff resist -30"
+            "Second trophy move resist -30",
+            "Second trophy debuff resist -40"
          ],
          "hero_class_requirements":
          [

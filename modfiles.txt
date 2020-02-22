@@ -1,4 +1,4 @@
-dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.entries.trinkets.json 23267
+dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.entries.trinkets.json 23290
 dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.sets.trinkets.json 2608
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.afflicted.png 809445
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.attack_artillery.png 171290
@@ -55,7 +55,7 @@ heroes/musketeer/musketeer_D/anim/musketeer.sprite.walk.png 184535
 modes/bloodmoon/upgrades/heroes/musketeer.upgrades.json 21272
 modes/new_game_plus/upgrades/heroes/musketeer.upgrades.json 21272
 modes/radiant/upgrades/heroes/musketeer.upgrades.json 21272
-dlc/735730_color_of_madness/trinkets/com.entries.trinkets.json 11892
+dlc/735730_color_of_madness/trinkets/com.entries.trinkets.json 11841
 heroes/musketeer/anim/musketeer.sprite.afflicted.atlas 405
 heroes/musketeer/anim/musketeer.sprite.afflicted.skel 3385
 heroes/musketeer/anim/musketeer.sprite.attack_artillery.atlas 305
@@ -146,12 +146,12 @@ heroes/musketeer/musketeer.ability.six.png 38945
 heroes/musketeer/musketeer.ability.three.png 36239
 heroes/musketeer/musketeer.ability.two.png 36477
 heroes/musketeer/musketeer.art.darkest 1980
-heroes/musketeer/musketeer.info.darkest 8437
+heroes/musketeer/musketeer.info.darkest 8436
 heroes/musketeer/musketeer.override.darkest 39
 heroes/musketeer/musketeer_guild_header.png 292551
 raid/camping/default.camping_skills.json 61058
 raid/camping/musketeer.camping_skills.json 4753
-shared/buffs/musketeer.buffs.json 18691
+shared/buffs/musketeer.buffs.json 17856
 upgrades/heroes/musketeer.upgrades.json 21272
 audio/musketeer.campaign.guid_overrides.json 735
 audio/musketeer.heroes.load_order.json 131
@@ -177,10 +177,10 @@ localization/localization.bat 30
 localization/localization.exe 13147648
 localization/musketeer.string_table.xml 14704
 localization/steam_api.dll 217376
-trinkets/musketeer.entries.trinkets.json 2296
+trinkets/musketeer.entries.trinkets.json 2256
 CONTRIBUTING.md 1148
-README.md 5262
+README.md 5263
 modfiles.txt 10845
 preview_icon.png 35052
 project.xml 3234
-rework_musketeer.xml 3254
+rework_musketeer.xml 3234
