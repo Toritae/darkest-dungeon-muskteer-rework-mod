@@ -2,7 +2,49 @@
    "buffs":
    [
       {
-         "id" : "SS_ACC_debuff_1",
+         "id" : "critical damage Low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "critical damage High",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "critical speed",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SmokeScreen ACC debuff 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.18,
@@ -18,7 +60,7 @@
       "is_clear_debuff_valid": false
       },
          {
-         "id" : "SS_ACC_debuff_2",
+         "id" : "SmokeScreen ACC debuff 2",
       "stat_type" : "combat_stat_add",
       "stat_sub_type" : "attack_rating",
       "amount" : -0.16,
@@ -34,7 +76,7 @@
       "is_clear_debuff_valid": false
       },
    {
-      "id" : "SS_ACC_debuff_3",
+      "id" : "SmokeScreen ACC debuff 3",
       "stat_type" : "combat_stat_add",
       "stat_sub_type" : "attack_rating",
       "amount" : -0.14,
@@ -50,7 +92,7 @@
          "is_clear_debuff_valid": false
       },
    {
-      "id" : "SS_ACC_debuff_4",
+      "id" : "SmokeScreen ACC debuff 4",
       "stat_type" : "combat_stat_add",
       "stat_sub_type" : "attack_rating",
       "amount" : -0.12,
@@ -66,7 +108,7 @@
       "is_clear_debuff_valid": false
       },
      {
-         "id" : "SS_ACC_debuff_5",
+         "id" : "SmokeScreen ACC debuff 5",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.10,
@@ -147,7 +189,7 @@
         }
      },
      {
-      "id" : "AS ignore protection 1",
+      "id" : "Musketeer Aimed Shot ignore protection 1",
       "stat_type" : "ignore_protection",
       "stat_sub_type" : "",
       "amount" : 0.20,
@@ -160,7 +202,7 @@
       }
    },
    {
-      "id" : "AS ignore protection 2",
+      "id" : "Musketeer Aimed Shot ignore protection 2",
       "stat_type" : "ignore_protection",
       "stat_sub_type" : "",
       "amount" : 0.25,
@@ -173,7 +215,7 @@
       }
    },
    {
-      "id" : "AS ignore protection 3",
+      "id" : "Musketeer Aimed Shot ignore protection 3",
       "stat_type" : "ignore_protection",
       "stat_sub_type" : "",
       "amount" : 0.30,
@@ -186,7 +228,7 @@
       }
    },
    {
-      "id" : "AS ignore protection 4",
+      "id" : "Musketeer Aimed Shot ignore protection 4",
       "stat_type" : "ignore_protection",
       "stat_sub_type" : "",
       "amount" : 0.35,
@@ -199,7 +241,7 @@
       }
    },
    {
-      "id" : "AS ignore protection 5",
+      "id" : "Musketeer Aimed Shot ignore protection 5",
       "stat_type" : "ignore_protection",
       "stat_sub_type" : "",
       "amount" : 0.4,
@@ -390,6 +432,32 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "wrathful hat bleed resist debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "wrathful hat poison resist debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : -0.3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

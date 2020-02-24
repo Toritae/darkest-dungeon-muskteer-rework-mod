@@ -4,21 +4,21 @@
 
 effect: .name "Sniper" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .attack_rating_add 10% .on_hit true .on_miss false
 
-effect: .name "Sniper ignore protection 1" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection 1" .on_hit true .on_miss false
-effect: .name "Sniper ignore protection 2" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection 2" .on_hit true .on_miss false
-effect: .name "Sniper ignore protection 3" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection 3" .on_hit true .on_miss false
-effect: .name "Sniper ignore protection 4" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection 4" .on_hit true .on_miss false
-effect: .name "Sniper ignore protection 5" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "AS ignore protection 5" .on_hit true .on_miss false
+effect: .name "Musketeer Sniper ignore protection 1" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "Musketeer Aimed Shot ignore protection 1" .on_hit true .on_miss false
+effect: .name "Musketeer Sniper ignore protection 2" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "Musketeer Aimed Shot ignore protection 2" .on_hit true .on_miss false
+effect: .name "Musketeer Sniper ignore protection 3" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "Musketeer Aimed Shot ignore protection 3" .on_hit true .on_miss false
+effect: .name "Musketeer Sniper ignore protection 4" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "Musketeer Aimed Shot ignore protection 4" .on_hit true .on_miss false
+effect: .name "Musketeer Sniper ignore protection 5" .target "performer" .curio_result_type "positive" .chance 100% .skill_instant true .buff_ids "Musketeer Aimed Shot ignore protection 5" .on_hit true .on_miss false
 
 // smokescreen
 
 effect: .name "Stealth3" .target "target" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 3
 
-effect: .name "SS ACC Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_1" .on_hit true .on_miss false 
-effect: .name "SS ACC Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_2" .on_hit true .on_miss false 
-effect: .name "SS ACC Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_3" .on_hit true .on_miss false 
-effect: .name "SS ACC Debuff 4" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_4" .on_hit true .on_miss false 
-effect: .name "SS ACC Debuff 5" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SS_ACC_debuff_5" .on_hit true .on_miss false 
+effect: .name "Musk Smoke AAC Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SmokeScreen ACC debuff 1" .on_hit true .on_miss false 
+effect: .name "Musk Smoke AAC Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SmokeScreen ACC debuff 2" .on_hit true .on_miss false 
+effect: .name "Musk Smoke AAC Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SmokeScreen ACC debuff 3" .on_hit true .on_miss false 
+effect: .name "Musk Smoke AAC Debuff 4" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SmokeScreen ACC debuff 4" .on_hit true .on_miss false 
+effect: .name "Musk Smoke AAC Debuff 5" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .buff_ids "SmokeScreen ACC debuff 5" .on_hit true .on_miss false 
 
 effect: .name "SS SP buff 1" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .speed_rating_add 2 .on_hit true .on_miss false 
 effect: .name "SS SP buff 2" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 3 .speed_rating_add 3 .on_hit true .on_miss false 
@@ -70,16 +70,12 @@ effect: .name "Skeet Crit Debuff 4" .target "target" .curio_result_type "negativ
 effect: .name "Skeet Crit Debuff 5" .target "target" .curio_result_type "negative" .chance 130% .duration 3  .combat_stat_buff 1 .crit_chance_add -12%  .on_hit true .on_miss false
 
 //crit
-    //See base.buff.json. So, this effect boosts speed 2 and damage 20%.
+    //this effect boosts speed 2 and damage 20%.
 
-effect: .name "on_crit_spd_and_dmg"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "on_crit_spd" "on_crit_dmgl" "on_crit_dmgh" .duration 2	.on_hit true .on_miss false .apply_once true
+effect: .name "critical speed and damage buff" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "critical speed" "critical damage Low" "critical damage High" .duration 2	.on_hit true .on_miss false .apply_once true
 
 //CC trinket
 
 effect: .name "silver mark target" .target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
 
 effect: .name "Friendly skill Clear" .target "target" .chance 100% .unstun 1 .untag 1 .on_hit true .on_miss false
-
-//test
-
-effect: .name "Grove_Tender_Trinket_Damage" 	.target "performer_group_other" .curio_result_type "positive"  .chance 100% .combat_stat_buff 1 .damage_low_multiply 15% damage_high_multiply 15% .duration 2 buff_duration_type "after_turn" .on_hit true .on_miss true .queue true .apply_once true 

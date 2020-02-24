@@ -9,6 +9,8 @@
             "wrathful hat 3rank dmgH buff",
             "wrathful hat 3rank spd buff",
             "wrathful hat def debuff",
+            "wrathful hat bleed resist debuff",
+            "wrathful hat poison resist debuff",
             "wrathful hat death door resist debuff"
          ],
          "hero_class_requirements":
@@ -49,7 +51,7 @@
          [
             "musketeer"
          ],
-         "rarity" : "rare",
+         "rarity" : "uncommon",
          "price" : 15000,
          "limit" : 0,
          "origin_dungeon" : ""
