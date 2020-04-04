@@ -46,7 +46,7 @@ combat_skill: .id "skeet_shot" .level 1 .type "ranged" .atk 100% .dmg -100% .cri
 combat_skill: .id "skeet_shot" .level 2 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 43 .target 234 .is_crit_valid False .ignore_stealth true .ignore_guard true  .effect "Clear Guarded Target" "Destealth" "Skeet Received Damage Debuff 3"  "Skeet Block Guard 3" "Arb Mark Target" .is_stall_invalidating false
 combat_skill: .id "skeet_shot" .level 3 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 43 .target 234 .is_crit_valid False .ignore_stealth true .ignore_guard true  .effect "Clear Guarded Target" "Destealth" "Skeet Received Damage Debuff 4"  "Skeet Block Guard 4" "Arb Mark Target" .is_stall_invalidating false
 combat_skill: .id "skeet_shot" .level 4 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 43 .target 234 .is_crit_valid False .ignore_stealth true .ignore_guard true  .effect "Clear Guarded Target" "Destealth" "Skeet Received Damage Debuff 5"  "Skeet Block Guard 5" "Arb Mark Target" .is_stall_invalidating false
-riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 85% .dmg 0% .crit 0% .launch 1234 .target 1234 .is_crit_valid True 
+riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 85% .dmg -25% .crit 0% .launch 1234 .target 1234 .is_crit_valid True 
 tag: .id "heavy"
 tag: .id "non-religious"
 tag: .id "training_ring"

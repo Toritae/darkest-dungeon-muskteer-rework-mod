@@ -76,7 +76,7 @@ effect: .name "critical speed and damage buff" .target "performer" .curio_result
 
 //vengeful boots
 
-effect: .name "MUSKETEER Riposte 1"  .target "target" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .damage_low_multiply 0%  .damage_high_multiply 0% .crit_chance_add 0% .on_hit true .on_miss true
+effect: .name "MUSKETEER Riposte 1"  .target "target" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .damage_low_multiply 0%  .damage_high_multiply 0% .crit_chance_add 2% .on_hit true .on_miss true
 
 //CC trinket
 
