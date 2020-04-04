@@ -1,7 +1,7 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - D:\musketeer\rework_musketeer.xml
-Mod Data Directory = D:/musketeer/
+Parsing project file - H:\Program Files (x86)\Steam\steamapps\workshop\content\262060\1973207593\rework_musketeer.xml
+Mod Data Directory = H:/Program Files (x86)/Steam/steamapps/workshop/content/262060/1973207593/
 
 -------------------------------------------------------------------------------
 Processing Map Files files...
@@ -14,21 +14,20 @@ Building Languages
 Exporting .loc files
 
 -------------------------------------------------------------------------------
-Searching for preview icon file D:/musketeer/preview_icon.png...FOUND!
+Searching for preview icon file H:/Program Files (x86)/Steam/steamapps/workshop/content/262060/1973207593/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
 
 -------------------------------------------------------------------------------
 Detected 2 unchanged files
 The following files are unchanged and will be uploaded...
-D:/musketeer/raid/camping/skill_icons/camp_skill_clean_musket.png
-D:/musketeer/colours/base.colours.darkest
+H:/Program Files (x86)/Steam/steamapps/workshop/content/262060/1973207593/raid/camping/skill_icons/camp_skill_clean_musket.png
+H:/Program Files (x86)/Steam/steamapps/workshop/content/262060/1973207593/colours/base.colours.darkest
 
 -------------------------------------------------------------------------------
 Modded files...
 
 dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.entries.trinkets.json
-dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.sets.trinkets.json
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.afflicted.png
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.attack_artillery.png
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.attack_bandage.png
@@ -142,78 +141,3 @@ heroes/musketeer/fx/musketeer.sprite.skeet_shot.atlas
 heroes/musketeer/fx/musketeer.sprite.skeet_shot.png
 heroes/musketeer/fx/musketeer.sprite.skeet_shot.skel
 heroes/musketeer/fx/musketeer.sprite.smokescreen.atlas
-heroes/musketeer/fx/musketeer.sprite.smokescreen.png
-heroes/musketeer/fx/musketeer.sprite.smokescreen.skel
-heroes/musketeer/fx/musketeer.sprite.smokescreen_target.atlas
-heroes/musketeer/fx/musketeer.sprite.smokescreen_target.png
-heroes/musketeer/fx/musketeer.sprite.smokescreen_target.skel
-heroes/musketeer/icons_equip/eqp_armour_0.png
-heroes/musketeer/icons_equip/eqp_armour_1.png
-heroes/musketeer/icons_equip/eqp_armour_2.png
-heroes/musketeer/icons_equip/eqp_armour_3.png
-heroes/musketeer/icons_equip/eqp_armour_4.png
-heroes/musketeer/icons_equip/eqp_weapon_0.png
-heroes/musketeer/icons_equip/eqp_weapon_1.png
-heroes/musketeer/icons_equip/eqp_weapon_2.png
-heroes/musketeer/icons_equip/eqp_weapon_3.png
-heroes/musketeer/icons_equip/eqp_weapon_4.png
-heroes/musketeer/musketeer_A/musketeer_portrait_roster.png
-heroes/musketeer/musketeer_B/musketeer_portrait_roster.png
-heroes/musketeer/musketeer_C/musketeer_portrait_roster.png
-heroes/musketeer/musketeer_D/musketeer_portrait_roster.png
-raid/camping/skill_icons/camp_skill_field_dressing_musk.png
-raid/camping/skill_icons/camp_skill_marching_plan_musk.png
-raid/camping/skill_icons/camp_skill_triage_musk.png
-audio/secondary_banks/hero_musketeer.bank
-campaign/provision/musketeer.provision.json
-campaign/roster/musketeer.roster.groups.json
-heroes/musketeer/musketeer.ability.five.png
-heroes/musketeer/musketeer.ability.four.png
-heroes/musketeer/musketeer.ability.one.png
-heroes/musketeer/musketeer.ability.seven.png
-heroes/musketeer/musketeer.ability.six.png
-heroes/musketeer/musketeer.ability.three.png
-heroes/musketeer/musketeer.ability.two.png
-heroes/musketeer/musketeer.art.darkest
-heroes/musketeer/musketeer.info.darkest
-heroes/musketeer/musketeer.override.darkest
-heroes/musketeer/musketeer_guild_header.png
-raid/camping/default.camping_skills.json
-raid/camping/musketeer.camping_skills.json
-shared/buffs/musketeer.buffs.json
-upgrades/heroes/musketeer.upgrades.json
-audio/musketeer.campaign.guid_overrides.json
-audio/musketeer.heroes.load_order.json
-effects/musketeer.effects.darkest
-localization/1973207593_brazilian.loc
-localization/1973207593_czech.loc
-localization/1973207593_english.loc
-localization/1973207593_french.loc
-localization/1973207593_german.loc
-localization/1973207593_italian.loc
-localization/1973207593_japanese.loc
-localization/1973207593_koreana.loc
-localization/1973207593_koreanb.loc
-localization/1973207593_polish.loc
-localization/1973207593_russian.loc
-localization/1973207593_schinese.loc
-localization/1973207593_spanish.loc
-localization/SDL2.dll
-localization/fmod.dll
-localization/fmodstudio.dll
-localization/glew32.dll
-localization/localization.bat
-localization/localization.exe
-localization/musketeer.string_table.xml
-localization/steam_api.dll
-trinkets/musketeer.entries.trinkets.json
-CONTRIBUTING.md
-README.md
-modfiles.txt
-preview_icon.png
-project.xml
-rework_musketeer.xml
-
-Submitting..........................................................................................................................Submitted.
-Saving project file D:\musketeer\rework_musketeer.xml
-

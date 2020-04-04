@@ -376,19 +376,6 @@
       }
    },
    {
-      "id" : "vengeful boots hpbelow crit buff",
-      "stat_type" : "combat_stat_add",
-      "stat_sub_type" : "crit_chance",
-      "amount" : 0.12,
-      "remove_if_not_active" : false,
-      "rule_type" : "hpbelow",
-      "is_false_rule" : false,
-      "rule_data" : {
-         "float" : 0.50,
-         "string" : ""
-      }
-   },      
-   {
       "id" : "wrathful hat 3rank dmgL buff",
       "stat_type" : "combat_stat_multiply",
       "stat_sub_type" : "damage_low",
@@ -571,12 +558,51 @@
          }
       },
       {
-         "id" : "SET crit received buff",
-         "stat_type" : "crit_received_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.1,
+         "id" : "MT SET crit buff B1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MT SET dmgL buff B1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MT SET dmgH buff B1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MT SET aac buff B1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,

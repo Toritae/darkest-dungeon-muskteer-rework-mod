@@ -74,6 +74,10 @@ effect: .name "Skeet Crit Debuff 5" .target "target" .curio_result_type "negativ
 
 effect: .name "critical speed and damage buff" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "critical speed" "critical damage Low" "critical damage High" .duration 2	.on_hit true .on_miss false .apply_once true
 
+//vengeful boots
+
+effect: .name "MUSKETEER Riposte 1"  .target "target" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .damage_low_multiply 0%  .damage_high_multiply 0% .crit_chance_add 0% .on_hit true .on_miss true
+
 //CC trinket
 
 effect: .name "silver mark target" .target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false

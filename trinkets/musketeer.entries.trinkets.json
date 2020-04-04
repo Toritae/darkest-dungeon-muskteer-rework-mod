@@ -78,17 +78,20 @@
          "buffs" : 
          [
             "vengeful boots hpbelow dmgL buff",
-            "vengeful boots hpbelow dmgH buff",
-            "vengeful boots hpbelow crit buff"
+            "vengeful boots hpbelow dmgH buff"
          ],
          "hero_class_requirements":
          [
             "musketeer"
          ],
-         "rarity" : "uncommon",
+         "rarity" : "rare",
          "price" : 10000,
          "limit" : 0,
-         "origin_dungeon" : ""
+         "origin_dungeon" : "",
+         "was_hit_additional_effects":
+         [
+            "MUSKETEER Riposte 1"
+         ]	 
       }
    ]
 }
