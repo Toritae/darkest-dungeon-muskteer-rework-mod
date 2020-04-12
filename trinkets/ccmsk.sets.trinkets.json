@@ -5,10 +5,8 @@
          "id" : "cc_msk",
          "buffs" : 
          [
-            "MT SET crit buff B1",
-            "MT SET aac buff B1",
-            "MT SET dmgL buff B1",
-            "MT SET dmgH buff B1"
+            "MT set stun resist 20",
+            "MT set disease resist 20"
          ]
       }
   ]

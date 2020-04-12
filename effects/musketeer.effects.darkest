@@ -82,4 +82,4 @@ effect: .name "MUSKETEER Riposte 1"  .target "target" .curio_result_type "positi
 
 effect: .name "silver mark target" .target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
 
-effect: .name "Friendly skill Clear" .target "target" .chance 100% .unstun 1 .untag 1 .on_hit true .on_miss false
+effect: .name "Friendly skill Clear" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "Second trophy enemy dmgL debuff" "Second trophy enemy dmgH debuff" "Second trophy enemy crit debuff" .on_hit true .on_miss false

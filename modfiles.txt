@@ -1,4 +1,5 @@
 dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.entries.trinkets.json 22121
+dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.sets.trinkets.json 2608
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.afflicted.png 809445
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.attack_artillery.png 171290
 heroes/musketeer/musketeer_A/anim/musketeer.sprite.attack_bandage.png 150861
@@ -144,16 +145,18 @@ heroes/musketeer/musketeer.ability.seven.png 39007
 heroes/musketeer/musketeer.ability.six.png 38945
 heroes/musketeer/musketeer.ability.three.png 36239
 heroes/musketeer/musketeer.ability.two.png 36477
-heroes/musketeer/musketeer.art.darkest 2077
-heroes/musketeer/musketeer.info.darkest 8669
+heroes/musketeer/musketeer.art.darkest 2100
+heroes/musketeer/musketeer.info.bak.darkest 7838
+heroes/musketeer/musketeer.info.darkest 8671
 heroes/musketeer/musketeer.override.darkest 39
 heroes/musketeer/musketeer_guild_header.png 292551
 raid/camping/default.camping_skills.json 61058
 raid/camping/musketeer.camping_skills.json 4753
-shared/buffs/musketeer.buffs.json 20747
+shared/buffs/musketeer.buffs.json 20745
 upgrades/heroes/musketeer.upgrades.json 21272
 audio/musketeer.campaign.guid_overrides.json 735
 audio/musketeer.heroes.load_order.json 131
+effects/musketeer.effects.bak.darkest 1309
 effects/musketeer.effects.darkest 9006
 localization/1973207593_brazilian.loc 4598
 localization/1973207593_czech.loc 4612
@@ -183,5 +186,5 @@ CONTRIBUTING.md 1148
 README.md 5263
 modfiles.txt 10830
 preview_icon.png 35052
-project.xml 3295
-rework_musketeer.xml 3295
+project.xml 3234
+rework_musketeer.xml 3253

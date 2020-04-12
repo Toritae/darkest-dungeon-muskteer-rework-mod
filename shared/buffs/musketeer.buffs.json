@@ -545,6 +545,45 @@
          }
       },
       {
+         "id" : "Second trophy enemy dmgL debuff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Second trophy enemy dmgH debuff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Second trophy enemy crit debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
          "id" : "silver ignore protection",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
@@ -558,12 +597,12 @@
          }
       },
       {
-         "id" : "MT SET crit buff B1",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.06,
+         "id" : "MT set stun resist 20",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.2,
          "remove_if_not_active" : false,
-         "rule_type" : "is_stealthed",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
@@ -571,38 +610,12 @@
          }
       },
       {
-         "id" : "MT SET dmgL buff B1",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.15,
+         "id" : "MT set disease resist 20",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.2,
          "remove_if_not_active" : false,
-         "rule_type" : "is_stealthed",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-      {
-         "id" : "MT SET dmgH buff B1",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "is_stealthed",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-      {
-         "id" : "MT SET aac buff B1",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "is_stealthed",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,

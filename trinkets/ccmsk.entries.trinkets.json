@@ -6,7 +6,7 @@
          "buffs" : 
          [
             "silver ignore protection",
-            "CRIT-5"
+            "CRIT-10"
          ],
          "hero_class_requirements":
          [
@@ -40,7 +40,7 @@
          "price" : 50000,
          "limit" : 1,
          "origin_dungeon" : "courtyard",
-         "friendly_skill_additional_effects":
+         "attack_skill_additional_effects":
          [
             "Friendly skill Clear"
          ]
