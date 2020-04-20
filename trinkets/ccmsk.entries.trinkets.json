@@ -26,9 +26,9 @@
          "id" : "cc_set_musk_first_place_trophy",
          "buffs" : 
          [
-            "TRINKET_MOVESKILL_B2",
+            "Second trophy move buff",
             "Second trophy debuff buff",
-            "Second trophy move resist -30",
+            "Second trophy move resist -40",
             "Second trophy debuff resist -40"
          ],
          "hero_class_requirements":

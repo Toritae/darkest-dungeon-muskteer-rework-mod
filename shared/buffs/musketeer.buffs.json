@@ -2,6 +2,19 @@
    "buffs":
    [
       {
+         "id" : "msk_block_guard",
+         "stat_type" : "guard_blocked",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
          "id" : "critical damage Low",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
@@ -506,6 +519,19 @@
          }
       },
       {
+         "id" : "Second trophy move buff",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
          "id" : "Second trophy debuff buff",
          "stat_type" : "debuff_chance",
          "stat_sub_type" : "",
@@ -519,10 +545,10 @@
          }
       },
       {
-         "id" : "Second trophy move resist -30",
+         "id" : "Second trophy move resist -40",
          "stat_type" : "resistance",
          "stat_sub_type" : "move",
-         "amount" : -0.3,
+         "amount" : -0.4,
          "remove_if_not_active" : false,
          "rule_type" : "stress_above",
          "is_false_rule" : false,
@@ -548,7 +574,7 @@
          "id" : "Second trophy enemy dmgL debuff",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : -0.25,
+         "amount" : -0.3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -561,7 +587,7 @@
          "id" : "Second trophy enemy dmgH debuff",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : -0.25,
+         "amount" : -0.3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

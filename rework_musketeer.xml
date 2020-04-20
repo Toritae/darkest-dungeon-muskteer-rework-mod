@@ -2,7 +2,7 @@
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>D:/musketeer/</ModDataPath>
+	<ModDataPath>H:\Program Files (x86)\Steam\steamapps\workshop\content\262060\1973207593</ModDataPath>
 	<Title>DC&apos;s musketeer rework mod! (BETA)</Title>
 	<Language>korean</Language>
 	<UpdateDetails/>
@@ -74,17 +74,17 @@ Knockback 3 (140 percent base)
 
 Sidearm ( X X O O - X O O O )
 
-ACC: 100
+ACC: 115
 
 DMG: -25%
 
-CRT: +0%
+CRT: +4%
 
 Patch Up ( O O O O )
 
 Heal +15% of max HP
 
-Skeet Shot ( O O X X - X O O O ) - susceptible to changes (Buff Self: CRT +6, ACC +15)
+Skeet Shot ( O O X X - X O O O )
 
 ACC: 115
 
@@ -104,13 +104,11 @@ Debuff: Can&apos;t be Guarded (130 percent base), +25% DMG Taken (130 percent ba
 
 Sturdy Boots: No changes have been made.
 
-Vengeful Boots (Common -&gt; Uncommon):
+Vengeful Boots (Common -&gt; Rare):
 
-+15% DMG if HP below 50%
+will be changed
 
-+12% CRT if HP below 50%
-
-Medic&apos;s Boots (Uncommon -&gt; Rare):
+Medic&apos;s Boots:
 
 (target bleeding) heals +50% more
 
@@ -132,25 +130,17 @@ Wrathful Hat:
 
 +5 SPD if in position 3
 
--10 ACC
-
 -15 DODGE
 
--15 Death Blow Resist
+-30 bleed/poison Resist
 
 4. Camping skills are changed to the following.
 
 Field Dressing:
 
-3 TC, One Companion
+6 TC, One Companion
 
-Heal 25% HP (75% chance)
-
-Heal 50% HP (50% chance)
-
-+30% Blight Resist
-
-+30% Bleed Resist
+Heal 100% HP
 
 Marching Plan:
 
@@ -180,7 +170,7 @@ Self:
 
 Triage:
 
-6 TC
+7 TC
 
 Party:
 

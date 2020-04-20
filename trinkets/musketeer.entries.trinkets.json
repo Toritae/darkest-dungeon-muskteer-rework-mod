@@ -51,7 +51,7 @@
             "musketeer"
          ],
          "rarity" : "uncommon",
-         "price" : 15000,
+         "price" : 10000,
          "limit" : 0,
          "origin_dungeon" : ""
       },
@@ -77,19 +77,21 @@
          "buffs" : 
          [
             "vengeful boots hpbelow dmgL buff",
-            "vengeful boots hpbelow dmgH buff"
+            "vengeful boots hpbelow dmgH buff",
+            "msk_block_guard"
          ],
          "hero_class_requirements":
          [
             "musketeer"
          ],
          "rarity" : "rare",
-         "price" : 10000,
+         "price" : 15000,
          "limit" : 0,
          "origin_dungeon" : "",
          "was_hit_additional_effects":
          [
-            "MUSKETEER Riposte 1"
+            "MUSKETEER move 1",
+            "MUSKETEER crit buff"
          ]	 
       }
    ]

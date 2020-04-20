@@ -9,41 +9,40 @@
 		{
 			"id" : "field_dressing_musk",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 5,
 			"use_limit" : 1,
 			"effects" : 
 			[
 				{ 
 					"selection" : "individual",
 					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 0.75 },
+					"chance" : { "code" : "a", "amount": 1 },
                     "type": "health_heal_max_health_percent",
                     "sub_type" : "",
-					"amount" :  0.25
+					"amount" :  1
 				},
 				{ 
 					"selection" : "individual",
 					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 0.25 },
-                    "type": "health_heal_max_health_percent",
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "remove_bleeding",
                     "sub_type" : "",
-					"amount" :  0.50
+					"amount" :  0
 				},
 				{ 
 					"selection" : "individual",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
-                    "type": "buff",
-                    "sub_type" : "campingBleedResistBuff",
-					"amount" :  0.30
+                    "type": "remove_poison",
+                    "sub_type" : "",
+					"amount" :  0
 				},
-				{ 
-					"selection" : "individual",
+				{	"selection" : "individual",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 },
-                    "type": "buff",
-                    "sub_type" : "campingBlightResistBuff",
-					"amount" :  0.30
+                    "type": "remove_deaths_door_recovery_buffs",
+                    "sub_type" : "",
+					"amount" :  0
 				}
 			],
 			"hero_classes" : ["musketeer"],
@@ -176,7 +175,7 @@
 		{ 
 			"id" : "triage_musk",
 			"level" : 0,
-			"cost" : 6,
+			"cost" : 5,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -186,14 +185,7 @@
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "health_heal_max_health_percent",
                     "sub_type" : "",
-					"amount" :  0.20
-				},
-				{	"selection" : "party",
-					"requirements" : [],
-					"chance" : { "code" : "c", "amount": 1.0 },
-                    "type": "remove_deaths_door_recovery_buffs",
-                    "sub_type" : "",
-					"amount" :  0
+					"amount" :  0.50
 				}
 			],
 			"hero_classes" : ["musketeer"],

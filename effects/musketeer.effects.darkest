@@ -49,11 +49,11 @@ effect: .name "Skeet Received Damage Debuff 3" .target "target" .curio_result_ty
 effect: .name "Skeet Received Damage Debuff 4" .target "target" .curio_result_type "negative" .chance 120%  .buff_ids "SS damage received debuff 4"  .on_hit true .on_miss false
 effect: .name "Skeet Received Damage Debuff 5" .target "target" .curio_result_type "negative" .chance 130%  .buff_ids "SS damage received debuff 5"  .on_hit true .on_miss false
 
-effect: .name "Skeet Block Guard 1" .target "target" .chance 90% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "Skeet Block Guard 2" .target "target" .chance 100% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "Skeet Block Guard 3" .target "target" .chance 110% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "Skeet Block Guard 4" .target "target" .chance 120% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "Skeet Block Guard 5" .target "target" .chance 130% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Skeet Block Guard 1" .target "target" .chance 90% .buff_ids "msk_block_guard" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Skeet Block Guard 2" .target "target" .chance 100% .buff_ids "msk_block_guard" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Skeet Block Guard 3" .target "target" .chance 110% .buff_ids "msk_block_guard" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Skeet Block Guard 4" .target "target" .chance 120% .buff_ids "msk_block_guard" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Skeet Block Guard 5" .target "target" .chance 130% .buff_ids "msk_block_guard" .duration 2 .on_hit true .on_miss false .queue true
 
 //skeet shot dumy
 
@@ -76,10 +76,11 @@ effect: .name "critical speed and damage buff" .target "performer" .curio_result
 
 //vengeful boots
 
-effect: .name "MUSKETEER Riposte 1"  .target "target" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .damage_low_multiply 0%  .damage_high_multiply 0% .crit_chance_add 2% .on_hit true .on_miss true
+effect: .name "MUSKETEER move 1"  .target "target" .curio_result_type "positive" .chance 500% .pull 1 .on_hit true .on_miss false
+effect: .name "MUSKETEER crit buff"  .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .crit_chance_add 6% .on_hit true .on_miss false
 
 //CC trinket
 
 effect: .name "silver mark target" .target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 2	.on_hit true .on_miss false
 
-effect: .name "Friendly skill Clear" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "Second trophy enemy dmgL debuff" "Second trophy enemy dmgH debuff" "Second trophy enemy crit debuff" .on_hit true .on_miss false
+effect: .name "Friendly skill Clear" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "Second trophy enemy dmgL debuff" "Second trophy enemy dmgH debuff" "Second trophy enemy crit debuff" .on_hit true .on_miss false
