@@ -6,8 +6,6 @@
 
 기여 방법: <https://gall.dcinside.com/mgallery/board/view/?id=darkest&no=158277&exception_mode=recommend&page=1>
 
-풀 리퀘스트(pull-request): 작성 예정
-
 이 프로젝트는 그다지 크지 않으므로, 온갖 작업의 결과는 일차적으로 musketeer-contributor-branch라는 단일한 분기가 pull request의 대상이 됩니다. (또한 해당 분기는 이후 master에 pull request 됩니다.)
 
 그러므로, musketeer-contributor-branch를 참조하여 당신의 분기를 만들어 작업하시면 됩니다. 작업 이후 pull request를 작성하여 musketeer-contributor-branch에 반영되지 않으면, 결국 master에 반영되지 못하니 주의하시기 바랍니다.

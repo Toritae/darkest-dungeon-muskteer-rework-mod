@@ -8,9 +8,9 @@
             "wrathful hat 3rank dmgL buff",
             "wrathful hat 3rank dmgH buff",
             "wrathful hat 3rank spd buff",
-            "wrathful hat aac debuff",
             "wrathful hat def debuff",
-            "wrathful hat death door resist debuff"
+            "wrathful hat bleed resist debuff",
+            "wrathful hat poison resist debuff"
          ],
          "hero_class_requirements":
          [
@@ -43,15 +43,15 @@
          "id" : "medics_boots",
          "buffs" : 
          [
-            "Medics boots bleed cure",
-            "Medics boots poison cure"
+            "Medics boots bleed cure buff",
+            "Medics boots poison cure buff"
          ],
          "hero_class_requirements":
          [
             "musketeer"
          ],
-         "rarity" : "rare",
-         "price" : 15000,
+         "rarity" : "uncommon",
+         "price" : 10000,
          "limit" : 0,
          "origin_dungeon" : ""
       },
@@ -78,16 +78,21 @@
          [
             "vengeful boots hpbelow dmgL buff",
             "vengeful boots hpbelow dmgH buff",
-            "vengeful boots hpbelow crit buff"
+            "msk_block_guard"
          ],
          "hero_class_requirements":
          [
             "musketeer"
          ],
-         "rarity" : "uncommon",
-         "price" : 10000,
+         "rarity" : "rare",
+         "price" : 15000,
          "limit" : 0,
-         "origin_dungeon" : ""
+         "origin_dungeon" : "",
+         "was_hit_additional_effects":
+         [
+            "MUSKETEER move 1",
+            "MUSKETEER crit buff"
+         ]	 
       }
    ]
 }
